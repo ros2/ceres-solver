@@ -38,8 +38,6 @@
   <license>New BSD</license>
   <url type="website">http://ceres-solver.org/</url>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
-
   <depend>atlas</depend>
   <depend>eigen</depend>
   <depend>gfortran</depend>
