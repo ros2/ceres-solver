@@ -289,6 +289,10 @@ if (BUILD_TESTING AND GFLAGS)
   ceres_test(block_random_access_diagonal_matrix)
   ceres_test(block_random_access_sparse_matrix)
   ceres_test(block_sparse_matrix)
+  # TODO(clalancette): there is a bug in the version of Eigen (3.3-beta1) in Ubuntu 16.04 on
+  # aarch64 that causes the bundle_adjustment tests to fail.  The solution is to upgrade to
+  # Eigen 3.3.4 or later.  However, since we aren't currently depending on bundle adjustment
+  # in ROS2 or cartographer, just comment out the test for now.
   #ceres_test(bundle_adjustment)
   ceres_test(c_api)
   ceres_test(canonical_views_clustering)
