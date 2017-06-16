@@ -35,6 +35,7 @@
   <maintainer email="clalancette@openrobotics.org">
     Chris Lalancette
   </maintainer>
+  <author email="ceres-solver@googlegroups.com">The Ceres Solver Authors</author>
   <license>New BSD</license>
   <url type="website">http://ceres-solver.org/</url>
 
