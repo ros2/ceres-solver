@@ -1,3 +1,5 @@
+**This was used for ROS 2 until Beta2 and is now obsolete.** As of Beta 3, ROS 2 is using the version of ceres-solver distributed on [packages.ros.org](http://packages.ros.org/ros/ubuntu/pool/main/c/ceres-solver/)
+
 Ceres Solver
 ============
 
